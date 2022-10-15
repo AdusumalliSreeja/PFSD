@@ -1,0 +1,42 @@
+.bg-nav{
+     background: #7F7FD5;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.mt-100{
+     margin-top:100px;
+}
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
